@@ -1,0 +1,99 @@
+/*Element Selector*/
+h1
+{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Class Selector*/
+.header
+{
+    height: auto;
+    width: auto;
+    justify-content: center;
+    display: flex;
+}
+.nav> navbar{
+    display: flex;
+    justify-content:center;
+
+    list-style: none; 
+
+}
+
+.nav li {
+    margin: 0 10px; 
+}
+
+.nav li a {
+    text-decoration: none; 
+    color: #333; 
+    display: flex;
+    flex-direction: row;
+}
+
+.nav li a:hover {
+    color: #666; /* Change link color on hover */
+}
+
+/*ID Selector*/
+#desc
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 20;
+    display: flex;
+    margin-top: -20px;
+    font-size: small;
+    letter-spacing: 3px;
+    justify-content: center;
+}
+/*Universal Selector*/
+*
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Group Selector*/
+h1:hover
+{
+    background-color: aquamarine;
+}
+.board
+{
+    height: 400px;
+    width: 352px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row
+{
+    height: 100px;
+    width: 352px;
+    display: flex;
+
+}
+.row> .square
+{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    background-color: black;
+}
+.row> .squareblack
+{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 2px solid black;
+}
+img
+{
+    opacity:0.5;
+    float: right;
+
+    height: 100px;
+    width: 100px;
+}
+img:hover
+{
+    opacity: 1.0;
+}

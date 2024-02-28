@@ -1,9 +1,53 @@
 body
 {
-    background-color: #2d3436;
-background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    background-color: black;
 background-attachment: fixed;
-font-family: Arial, Helvetica, sans-serif;
+font-family: "Montserrat", sans-serif;
+margin-top: 40px;
+}
+.ellipse1
+{
+    background-color: #71269ca6;
+    border-radius: 198px / 179px;
+    filter: blur(260px);
+    height: 358px;
+    right: 1237px;
+    position: absolute;
+    top: -301px;
+    width: 396px;
+}
+.ecllipse2
+{
+    background-color: #71269ca6;
+    border-radius: 198px / 179px;
+    filter: blur(260px);
+    height: 358px;
+    left: 1120px;
+    position: absolute;
+    top: 381px;
+    width: 396px;
+}
+.ecllipse3
+{
+    background-color: #71269ca6;
+    border-radius: 198px / 179px;
+    filter: blur(260px);
+    height: 358px;
+    right: 1120px;
+    position: absolute;
+    top: 1081px;
+    width: 396px;
+}
+.ecllipse4
+{
+    background-color: #71269ca6;
+    border-radius: 198px / 179px;
+    filter: blur(260px);
+    height: 358px;
+    left: 1120px;
+    position: absolute;
+    top: 1781px;
+    width: 396px;
 }
 .nav
 {
@@ -28,7 +72,9 @@ font-family: Arial, Helvetica, sans-serif;
 {
     display: flex;
     list-style: none;
-    margin-right: 440px;
+    margin-right: 80px;
+    overflow: hidden;
+    
 }
 
 .nav-menu ul li .link
@@ -39,48 +85,64 @@ font-family: Arial, Helvetica, sans-serif;
     margin: 0 25px;
     font-size: 14px;
     letter-spacing: 1px;
+    display: block;
 }
 .link:hover
 {
     border-bottom: 2px solid white;
 }
+
+.headcontent
+{
+    width: fit-content;
+    height: 600px;
+    margin-top: 140px;
+}
 .header
 {
     color: white;
     float: right;
-    margin-top: 270px;
-    margin-right: 130px;
+    margin-top: 70px;
+    margin-right: 100px;
     font-size: 30px;
     letter-spacing: 2px;
     display: flex;
 }
-.header .name{
-    margin-top: 50px;
-    margin-left: 20px;
-}
-.header .dd
+.header span
 {
-    color:#ce7fff;
+    color: #D181FF;
+}
+.header h1
+{
+    font-size: 48px;
+    padding-left: 700px;
+
 }
 .desc
 {
     color: white;
-    margin-left: 800px;
-    letter-spacing: 4px;
+    margin-left: 700px;
+    font-size: 16px;
+    padding-right: 100px;
+    letter-spacing: 1px;
 
 }
-.about
+.nav .mail
 {
     color: white;
-    width: 680px;
-    text-align: center;
-    float: right;
-    margin-right: 200px;
-    letter-spacing: 0.5px;
+    padding-top: 15px;
+    font-size: 12px;
+    
 }
+.nav .mailimg
+{
+    margin-top: 20px;
+    margin-right: -190px;
+}
+
 .img img
 {
-    margin-top: -300px;
+    margin-top: -380px;
 }
 .icons 
 {
@@ -130,4 +192,174 @@ font-family: Arial, Helvetica, sans-serif;
 {
     margin-left: 1000px;
     margin-top: -50px;
+}
+.btn button
+{
+    background: linear-gradient(180deg, #ca6fff 0%, rgba(113, 38, 156, 1) 46.249961853027344%);
+    right: -326px;
+    border-radius: 50px;
+    height: 54px;
+    color: white;
+    font-size: 12px;
+    width: 223px;
+    border: none;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.btn
+{
+    margin-left: 700px;
+    margin-top: -45px;
+}
+.subcontent
+{
+    width: fit-content;
+    height: 400px;
+}
+.subcontent .profiles p
+{
+    color:white;
+    align-items: center;
+    margin-left: 700px;
+    font-size: 24px;
+    margin-top: 37px;
+}
+.subcontent .profiles 
+{
+    width: 604px;
+    height: 109px;
+    
+}
+.subcontent .profiles .icons
+{
+    justify-content: space-around;
+    width: 604px;
+    height: 65px;
+    margin-left: 460px;
+    margin-top: 60px;
+}
+.subcontent .profiles .descprof
+{
+    color: white;
+    width: 488px;
+    height: 34px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-left: 100px;
+}
+.subcontent .profiles .descprof p
+{
+    font-size: 14px;
+    text-align: center;
+    margin-left: -200px;
+    letter-spacing: 2px;
+}
+.subcontent .tools
+{
+    width: 388px;
+    height: 197px;
+}
+.subcontent .tools p
+{   
+    font-size: 24px;
+
+}
+.subcontent .tools .desctool p
+{
+    font-size: 14px;
+    text-align: center;
+    width: 300px;
+  
+    margin-left: -250px;
+
+}
+
+.subcontent .tools .icons2
+{
+    justify-content: space-around;
+    width: 500px;
+    height: 65px;
+    margin-left: -320px;
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 35px;
+}
+.midline img
+{
+    margin-left: 725px;
+    margin-top: 80px;
+    padding-top: 80px;
+}
+.languages p
+{
+    font-size: 24px;
+    margin-top: -197px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+}
+.languages
+{
+    width: 496px;
+    height: 194px;
+}
+.languages .icons3
+{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 65px;
+    margin-left: -90px;
+}
+.languages .desclan p
+{
+    color: white;
+    font-size: 14px;
+    padding-top: 230px;
+    
+}
+.projects .top
+{
+    color: white;
+    text-align: center;
+}
+.projects .top p
+{
+    font-size: 24px;
+    margin-top: 100px;
+}
+.projects .top .topdesc p
+{
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+.boxes{
+    display:flex;
+    align-items: center;
+}
+.boxes .box{
+   
+    /* background-color: azure; */
+    width:33.33%;
+    height:300px;
+    margin-right: 20px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+.boxes .box img
+{
+    width: 400px;
+    height: 280px;
+    border-radius: 20px;
+}
+.bigbox
+{
+    display: flex;
+}
+.bigbox .bb
+{
+    width: 50%;
+    height: 815px;
+    margin-left: 100px;
+    margin-top: 60px;
 }

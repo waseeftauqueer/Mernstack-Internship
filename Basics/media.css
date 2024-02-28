@@ -1,0 +1,14 @@
+body
+{
+    background-color: bisque;
+    color: brown;
+}
+@media screen and (max-width:992px){
+    body{
+        background-color: blue;
+        color: white;
+    }
+    img{
+        opacity: 0;
+    }
+}

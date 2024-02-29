@@ -1,0 +1,54 @@
+body
+{
+    background-color: black;
+}
+.form
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+    width: 800px;
+    margin-left: 400px;
+}
+.form input
+{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(255, 157, 0, 0.228);
+    color: white;
+}
+.ans input
+{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(255, 157, 0, 0.228);
+    color: white;
+}
+.ans{
+    margin-top: 100px;
+    margin-left: 640px;
+}
+input
+{
+    font-weight: bolder;
+}
+h1
+{
+    margin-left: 600px
+}
+button
+{
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 690px;
+}

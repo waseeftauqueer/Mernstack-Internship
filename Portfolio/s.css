@@ -1,9 +1,10 @@
 body
 {
     background-color: black;
-background-attachment: fixed;
-font-family: "Montserrat", sans-serif;
-margin-top: 40px;
+    background-attachment: fixed;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+    scroll-behavior: smooth;
 }
 .ellipse1
 {
@@ -91,7 +92,13 @@ margin-top: 40px;
 {
     border-bottom: 2px solid white;
 }
-
+.sparkle{
+    height: 24px;
+    left: 1300px;
+    position: absolute;
+    top: 208px;
+    width: 24px;
+}
 .headcontent
 {
     width: fit-content;
@@ -211,6 +218,15 @@ margin-top: 40px;
     margin-left: 700px;
     margin-top: -45px;
 }
+.btn button:hover
+{
+    border: 4px solid #ca6fff;
+    background: rgba(0, 0, 0, 0.142);
+    cursor: pointer;
+    box-shadow: 2px 4px 4px 2px#71269ca6;
+
+   
+}
 .subcontent
 {
     width: fit-content;
@@ -237,6 +253,13 @@ margin-top: 40px;
     height: 65px;
     margin-left: 460px;
     margin-top: 60px;
+    cursor: pointer;
+    transform: rotateY('300deg');
+}
+.profiles .icons img:hover
+{
+    scale: 1.1;
+    
 }
 .subcontent .profiles .descprof
 {

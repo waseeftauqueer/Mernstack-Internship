@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="clac.js"></script>
+    <link rel="stylesheet" href="cal.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+<div class="whole" id="">
+    <input type="text" id="res" class="screen">
+    <button onclick="solve('1')">1</button>
+    <button onclick="solve('2')">2</button>
+    <button onclick="solve('3')">3</button>
+    <button onclick="solve('4')">4</button>
+    <button onclick="solve('5')">5</button>
+    <br>
+    <button onclick="solve('6')">6</button>
+    <button onclick="solve('7')">7</button>
+    <button onclick="solve('8')">8</button>
+    <button onclick="solve('9')">9</button>
+    <button onclick="solve('0')">0</button>
+    <br>
+
+    <button onclick="solve('+')">+</button>
+    <button onclick="solve('-')">-</button>
+    <button onclick="solve('*')">x</button>
+    <button onclick="solve('/')">/</button>
+    <button onclick="solve('%')">%</button>
+    <br>
+
+    <button onclick="result()">=</button>
+    <button onclick="solve('.')">.</button>
+    <button onclick="solve('00')">00</button>
+    <button onclick="Clear()">C</button>
+    <button onclick="back()">Back</button>
+</div>
+</body>
+</html>

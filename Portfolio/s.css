@@ -3,7 +3,7 @@ body
     background-color: black;
     background-attachment: fixed;
     font-family: "Montserrat", sans-serif;
-    margin-top: 40px;
+    padding-top: 40px;
     scroll-behavior: smooth;
 }
 .ellipse1
@@ -38,6 +38,7 @@ body
     position: absolute;
     top: 1081px;
     width: 396px;
+    
 }
 .ecllipse4
 {
@@ -49,6 +50,7 @@ body
     position: absolute;
     top: 1781px;
     width: 396px;
+    z-index: 2;
 }
 .nav
 {
@@ -59,6 +61,7 @@ body
     line-height: 100px;
     justify-content: space-around;
     position: fixed;
+    z-index: 9999;
     
 }
 
@@ -184,6 +187,7 @@ body
 {
     margin-top: 100px;
     margin-left: 400px;
+    z-index: 1;
 }
 .languages h2 
 {
@@ -310,7 +314,13 @@ body
 .midline img
 {
     margin-left: 725px;
-    margin-top: 80px;
+    margin-top: 60px;
+    padding-top: 80px;
+}
+.midline2 img
+{
+    margin-left: 725px;
+    
     padding-top: 80px;
 }
 .languages p
@@ -318,11 +328,11 @@ body
     font-size: 24px;
     margin-top: -197px;
     padding-bottom: 30px;
-    padding-left: 60px;
+    
 }
 .languages
 {
-    width: 496px;
+    width: 500px;
     height: 194px;
 }
 .languages .icons3
@@ -338,6 +348,9 @@ body
     color: white;
     font-size: 14px;
     padding-top: 230px;
+    padding-right: 30px;
+    margin-right: 120px;
+    letter-spacing: 1.8x;
     
 }
 .projects .top
@@ -348,7 +361,7 @@ body
 .projects .top p
 {
     font-size: 24px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .projects .top .topdesc p
 {
@@ -363,21 +376,37 @@ body
 .boxes .box{
    
     /* background-color: azure; */
-    width:33.33%;
+    width: 24%;
     height:300px;
-    margin-right: 20px;
-    margin-top: 40px;
+    margin-right: 60px;
+    padding-left: 20px;
+    margin-top: 20px;
+    padding-bottom: -90px;
     border-radius: 30px;
+    
 }
 .boxes .box img
 {
     width: 400px;
-    height: 280px;
+    height: 270px;
     border-radius: 20px;
+    transition: transform 0.3 ease;
+}
+.boxes .box img:hover
+{
+    transform: scale(1.06);
 }
 .bigbox
 {
     display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 900px;
+    
+    background-image: linear-gradient(180deg, #2d3436 0%, #000000 34%);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 .bigbox .bb
 {
@@ -385,4 +414,304 @@ body
     height: 815px;
     margin-left: 100px;
     margin-top: 60px;
+}
+.midline3
+{
+    padding-top: 1840px;
+    padding-left: 730px;
+}
+.iot 
+{
+    width: 1251px;
+    height: 768px;
+    margin-left: 100px;
+}
+.iot .topiot
+{
+    height: 80px;
+    width: 395px;
+   
+    margin-left: 450px;
+}
+.iot .topiot p
+{
+    color: white;
+    font-size: 24px;
+    margin-left: 115px;
+}
+.iot .topiot .iotdesc p
+{
+    color: white;
+    width: 460px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: -27px;
+    letter-spacing: 2px;
+
+}
+.iot .project1
+{
+    width: 1251px;
+    height: 400px;
+    margin-top: 90px;
+}
+.iot .project2
+{
+    width: 1251px;
+    height: 400px;
+    margin-top: 4px;
+}
+.pro1img
+{
+    width: 508px;
+    height: 300px;
+    background-color: #101010;
+    border-radius: 30px;
+    margin-left: 70px;
+    box-shadow: -2px -4px 4px 2px#71269ca6;
+}
+.mine{
+    font-size: 24px;
+}
+.pro1img img
+{
+    width: 440px;
+    height: 245px;
+    margin-top: 25px;
+    margin-left: 28px;
+    border-radius: 30px;
+}
+.pro1desc
+{
+    color: white;
+    width: 430px;
+    height: 200px;
+    float: right;
+    margin-top: -250px;
+    margin-right: 100px;
+
+}
+.pro1desc p
+{
+    letter-spacing: 2px;
+    line-height: 23px;
+}
+.rocket
+{
+    float: right;
+    margin-top: -228px;
+    margin-right: 300px;
+}
+.pro2desc
+{
+    color: white;
+    width: 430px;
+    height: 200px;
+    float: right;
+    float: left;
+    margin-left: 150px;
+    margin-top: -270px;
+}
+.pro2img
+{
+    width: 500px;
+    height: 310px;
+    border-radius: 30px;
+    background-color: #101010; 
+    margin-left: 710px; 
+    box-shadow: 2px -4px 4px 2px#71269ca6; 
+}
+.pro2img img
+{
+    width: 440px;
+    height: 245px;
+    margin-top: 30px;
+    margin-left: 28px;
+    border-radius: 30px;
+}
+.pro2desc p
+{
+    letter-spacing: 2px;
+    line-height: 23px;
+}
+.sewage
+{
+    font-size: 24px;
+}
+.rocket2
+{
+    margin-left: 500px;
+    margin-bottom: -100px;
+}
+.midline4
+{
+    margin-top: 200px;
+    margin-left: 730px
+}
+.software
+{
+    width: 1251px;
+    height: 768px;
+    margin-left: 100px;
+}
+.software .topsoft
+{
+    height: 80px;
+    width: 395px;
+   
+    margin-left: 450px;
+}
+.software .topsoft p
+{
+    color: white;
+    font-size: 24px;
+    margin-left: 65px;
+}
+.software .topsoft .softdesc p
+{
+    color: white;
+    width: 460px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: -27px;
+    letter-spacing: 2px;
+
+}
+.software .sproject1
+{
+    width: 1251px;
+    height: 400px;
+    margin-top: 90px;
+}
+.software .sproject2
+{
+    width: 1251px;
+    height: 400px;
+    margin-top: 4px;
+}
+.spro1img
+{
+    width: 508px;
+    height: 300px;
+    background-color: #101010;
+    border-radius: 30px;
+    margin-left: 70px;
+    box-shadow: -2px -4px 4px 2px#71269ca6;
+}
+
+.spro1img img
+{
+    width: 440px;
+    height: 245px;
+    margin-top: 25px;
+    margin-left: 28px;
+    border-radius: 30px;
+}
+.spro1desc
+{
+    color: white;
+    width: 430px;
+    height: 200px;
+    float: right;
+    margin-top: -250px;
+    margin-right: 100px;
+
+}
+.spro1desc p
+{
+    letter-spacing: 2px;
+    line-height: 23px;
+}
+.spro2img
+{
+    width: 500px;
+    height: 310px;
+    border-radius: 30px;
+    background-color: #101010; 
+    margin-left: 710px; 
+    box-shadow: 2px -4px 4px 2px#71269ca6; 
+}
+.spro2desc
+{
+    color: white;
+    width: 430px;
+    height: 200px;
+    float: right;
+    float: left;
+    margin-left: 150px;
+    margin-top: -270px;
+}
+
+.spro2img img
+{
+    width: 440px;
+    height: 245px;
+    margin-top: 30px;
+    margin-left: 28px;
+    border-radius: 30px;
+}
+.spro2desc p
+{
+    letter-spacing: 2px;
+    line-height: 23px;
+}
+
+hr
+{
+    margin-top: 250px;
+    width:1245px;    
+}
+.ai ,.music 
+{
+    font-size: 24px;
+}
+.python
+{
+    margin-left: 990px;
+    margin-bottom: -105px;
+}
+.java
+{
+    margin-left: 380px;
+    margin-bottom: -90px;
+}
+.foot
+{   
+    width: 1245px;
+    height: 71px;
+    color: white;
+
+
+}
+.foot p
+{
+    margin-left: 600px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.iconsf
+{
+    display: flex;
+    justify-content: space-around;
+    width: 193px;
+    height: 30px;
+    float: left;
+    
+    margin-top: -80px;
+}
+/* Customize scrollbar track */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Customize scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background-color: #706f6f;
+    border-radius: 5px;
+}
+
+/* Customize scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
 }

@@ -9,6 +9,8 @@ function result()
     var num2 = eval(num1);
     document.getElementById('res').value = num2;
 }
+
+
 function Clear()
 {
     var u = document.getElementById('res');

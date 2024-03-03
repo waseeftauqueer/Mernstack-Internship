@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="s.css">
+    <script src="portfolio.js"></script>
 </head>
 <body>
     <div class="ellipse1">
@@ -15,25 +19,27 @@
     <div class="ecllipse2"></div>
     <div class="ecllipse3"></div>
     <div class="ecllipse4"></div>
+    <div class="ecllipse5"></div>
+    <div class="ecllipse6"></div>
 
     <div class="sparkle">
         <img src="./Sparkle Icon.png" alt="">
     </div>
     <!--Navbar content-->
     <nav class="nav">
-        <div class="logo">
-            <img src="./Frame 28.png" alt="">
+        <div class="logo" id="logo">
+            <img src="./Frame 28.png" alt="" id="logo">
         </div>
         <div class="nav-menu">
             <ul>
                 <li><a href="" class="link">HOME</a></li>
                 <li><a href="#projects" class="link">MY WORKS</a></li>
                 <li><a href="#" class="link">BLOG</a></li>
-                <li><a href="#" class="link">CONTACT</a></li>
+                <li><a href="#profiles" class="link">CONTACT</a></li>
             </ul>
         </div>
-        <div class="mailimg"><img src="./Vector.png"></div>
-        <div class="mail">
+        <div class="mailimg"><img src="./Vector.png" id="mail"></div>
+        <div class="mail" id="mail1">
             waseeftauqueera@gmail.com</div>
     </nav>
 <div class="headcontent">
@@ -54,15 +60,16 @@
 
     <!--Connect Button-->
     <div class="btn">
-        <button>
+        <a href="https://www.linkedin.com/in/waseef-tauqueer-a-725ba6259/"><button>
             CONNECT WITH ME
-        </button>
+        </button></a>
+        
     </div>
 </div>
     <div class="subcontent">
 
-        <div class="profiles">
-            <p>Profiles</p>
+        <div class="profiles" id="profiles">
+            <p class="bebas">Profiles</p>
             <div class="icons">
                 <img src="./Mail Icon.png" alt="">
             <img src="./Github Icon.png" alt="">
@@ -81,7 +88,7 @@
             <img src="./Line 12.png" alt="">
         </div>
         <div class="tools">
-            <p>Tools</p>
+            <p class="bebas">Tools</p>
             <div class="icons2">
                 <img src="./VSCode Icon.png" alt="">
                 <img src="./Figma Icon.png" alt="">
@@ -111,7 +118,7 @@
         </div>
         <div class="projects" id="projects">
             <div class="top">
-                <p>Projects</p>
+                <p class="bebas">Projects</p>
                 <div class="topdesc">
                     <p>Explore my portfolio showcasing a diverse <br>range of impactful projects and designs.</p>
                 </div>
@@ -137,7 +144,7 @@
 
     <div class="iot">
         <div class="topiot">
-            <p>IOT Projects</p>
+            <p class="bebas">IOT Projects</p>
             <div class="iotdesc"><p>Explore my intruguing IOT ventures, where innovation meets connectivity and technology</p></div>
         </div>
         <div class="project1">
@@ -171,7 +178,7 @@
 
      <div class="software">
         <div class="topsoft">
-            <p>SOFTWARE PROJECTS</p>
+            <p class="bebas">SOFTWARE PROJECTS</p>
             <div class="softdesc"><p>Dive into my software projects and witness innovation in code.
             </p></div>
         </div>

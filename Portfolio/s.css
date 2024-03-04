@@ -313,11 +313,15 @@ body
     margin-left: 460px;
     margin-top: 60px;
     cursor: pointer;
-    transform: rotateY('300deg');
 }
 .profiles .icons img:hover
 {
     scale: 1.1;
+    transition: .2 ease-in-out;
+    
+}
+@keyframes animation {
+    
     
 }
 .subcontent .profiles .descprof
